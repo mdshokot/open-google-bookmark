@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "Open google favorite",
+  "description": "Open google favorite by keyboard shortcut",
+  "version": "1.0.1",
+  "permissions": ["bookmarks", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "Alt+1": {
+      "suggested_key": {
+        "default": "Alt+1"
+      },
+      "description": "Alt+1."
+    },
+    "Alt+2": {
+      "suggested_key": {
+        "default": "Alt+2"
+      },
+      "description": "Alt+2."
+    },
+    "Alt+3": {
+      "suggested_key": {
+        "default": "Alt+3"
+      },
+      "description": "Alt+3."
+    },
+    "Alt+4": {
+      "suggested_key": {
+        "default": "Alt+4"
+      },
+      "description": "Alt+4."
+    }
+  }
+}
